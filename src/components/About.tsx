@@ -1,4 +1,4 @@
-import { Title3, Subtitle2, Text, makeStyles, tokens } from '@fluentui/react-components';
+import { makeStyles, tokens } from '@fluentui/react-components';
 import { FadeInSection } from './FadeInSection';
 
 const useStyles = makeStyles({
