@@ -1,4 +1,3 @@
-
 import { makeStyles, tokens } from '@fluentui/react-components';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 
@@ -38,10 +37,30 @@ export function Nav() {
   const location = useLocation();
   return (
     <nav className={classes.nav}>
-      <RouterLink to="/about" className={`${classes.navLink} ${location.pathname === '/about' ? classes.active : ''}`}>About</RouterLink>
-      <RouterLink to="/resume" className={`${classes.navLink} ${location.pathname === '/resume' ? classes.active : ''}`}>Resume</RouterLink>
-      <RouterLink to="/skills" className={`${classes.navLink} ${location.pathname === '/skills' ? classes.active : ''}`}>Skills</RouterLink>
-      <RouterLink to="/contact" className={`${classes.navLink} ${location.pathname === '/contact' ? classes.active : ''}`}>Contact</RouterLink>
+      <RouterLink
+        to="/about"
+        className={`${classes.navLink} ${location.pathname === '/about' ? classes.active : ''}`}
+      >
+        About
+      </RouterLink>
+      <RouterLink
+        to="/experience"
+        className={`${classes.navLink} ${location.pathname === '/experience' ? classes.active : ''}`}
+      >
+        Experience
+      </RouterLink>
+      <RouterLink
+        to="/skills"
+        className={`${classes.navLink} ${location.pathname === '/skills' ? classes.active : ''}`}
+      >
+        Skills
+      </RouterLink>
+      <RouterLink
+        to="/contact"
+        className={`${classes.navLink} ${location.pathname === '/contact' ? classes.active : ''}`}
+      >
+        Contact
+      </RouterLink>
     </nav>
   );
 }

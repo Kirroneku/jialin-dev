@@ -1,6 +1,8 @@
 [
   {
-    "title": "Full Stack Developer Consultant, Avanade – Toronto, ON, CA",
+    "title": "Full Stack Developer Consultant, Avanade",
+    "location": "Toronto, ON, CA",
+    "logo": "src/assets/avanadeLogo.png",
     "date": "June 2022 – Present",
     "highlights": [
       "Mentored junior developers as a Career Advisor",
@@ -16,12 +18,13 @@
           "Implemented and enhanced end to end testing infrastructure with Azure and Playwright, enabling hourly automated tests with failure notification system to ensure product stability via Azure Devops",
           "First point of contact for testing infrastructure and end to end tests on the project.",
           "Developed middleware API layer to transform GraphQL responses into frontend data structures, leading to easier to understand and reduce complexity on the front end code.",
+          "Implemented ADO pipelines for testing and deployment of the product​",
           "Actively pursued improvements to the end user experience of the product."
         ]
       },
       {
         "title": "Full Stack Developer - Higher Education Institution",
-        "tech": "React.js, C# (.NET), JavaScript, Git",
+        "tech": "React.js, C# .NET, JavaScript, Git",
         "bullets": [
           "Participated in greenfield development of full-stack application with React frontend with C# backend",
           "Demonstrated strong communication skills through effective collaboration with offshore development team",
@@ -32,7 +35,9 @@
     ]
   },
   {
-    "title": "Full Stack Developer Sr Analyst, Avanade – Toronto, ON, CA",
+    "title": "Full Stack Developer Sr Analyst, Avanade",
+    "location": "Toronto, ON, CA",
+    "logo": "src/assets/avanadeLogo.png",
     "date": "April 2021 - June 2022",
     "projects": [
       {
@@ -57,7 +62,9 @@
     ]
   },
   {
-    "title": "Software Developer Co-op, The Weather Network – Oakville, ON, CA",
+    "title": "Software Developer Co-op, Pelmorex Corp (The Weather Network)",
+    "location": "Oakville, ON, CA",
+    "logo": "src/assets/twnLogo.png",
     "date": "May 2018 - December 2018",
     "highlights": [],
     "projects": [
@@ -73,6 +80,59 @@
         "bullets": [
           "Wrote an interactive map app using JavaScript, React, Mapbox, NPM, Three.js, and AWS. The project is used by meteorologists to predict the weather by displaying current, past and future data such as radar, cloud, and pressure.",
           "Created and tested AWS CloudFormation templates for new load balancers, EC2 instances, and S3 buckets."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Software Developer Co-op, Bentley Systems Inc.",
+    "location": "Burlington, ON, CA",
+    "logo": "src/assets/bentleyLogo.png",
+    "date": "September 2017 - December 2017",
+    "projects": [
+      {
+        "title": "Website Customization Page Optimization",
+        "tech": "AngularJS",
+        "bullets": [
+          "Collaborated with an international team in an agile development method to optimize a customization page on the main product’s website."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Software Developer Co-op, Bank of Montreal Capital Markets",
+    "location": "Toronto, ON, CA",
+    "logo": "src/assets/bmoLogo.png",
+    "date": "January 2017 - April 2017",
+    "projects": [
+      {
+        "title": "Equity Visualization Web Toolkit",
+        "tech": "AngularJS",
+        "bullets": [
+          "Enhanced a web-toolkit for equity visualization using AngularJs by implementing modern features (e.g. exporting auto-generated pdf’s, creating friendly UI, more filter options) as well as identifying and fixing bugs.",
+          "Developed a mobile friendly web view of the big data visualization website for phones and tablets."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Software Developer Co-op, Evertz Microsystems Ltd.",
+    "location": "Burlington, ON, CA",
+    "logo": "src/assets/evertzLogo.png",
+    "date": "September 2015 - December 2015 + May 2016 - August 2016",
+    "projects": [
+      {
+        "title": "Home Automation Proof of Concept",
+        "tech": "Python",
+        "bullets": [
+          "Developed proof of concept home automation software interfacing with third party devices and APIs in Python."
+        ]
+      },
+      {
+        "title": "Automated Regression Testing for Magnum Products",
+        "tech": "Selenium",
+        "bullets": [
+          "Created automated regression tests in Selenium to reduce manual testing for Magnum products."
         ]
       }
     ]
