@@ -1,4 +1,4 @@
-import { Title3, Divider, Body1, Text, Link, makeStyles, tokens } from '@fluentui/react-components';
+import { Title3, Divider, Body1, Link, makeStyles, tokens } from '@fluentui/react-components';
 import { Mail24Regular } from '@fluentui/react-icons';
 import { FadeInSection } from './FadeInSection';
 
