@@ -1,6 +1,6 @@
 import './App.css';
 import { FluentProvider, webLightTheme } from '@fluentui/react-components';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import { About } from './components/About';
 import { Experience } from './components/Experience';
