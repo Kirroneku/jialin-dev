@@ -3,8 +3,10 @@ import { Link as RouterLink, useLocation } from 'react-router-dom';
 
 const useStyles = makeStyles({
   nav: {
-    position: 'sticky',
-    top: tokens.spacingVerticalNone,
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100vw',
     zIndex: 100,
     background: tokens.colorNeutralBackground1,
     boxShadow: tokens.shadow8,

@@ -12,7 +12,6 @@ function App() {
   return (
     <FluentProvider theme={webLightTheme}>
       <Router>
-        <Nav />
         <main
           className="fancy-bg"
           style={{
@@ -26,6 +25,7 @@ function App() {
             margin: 0,
           }}
         >
+          <Nav />
           <div
             style={{ width: '100%', maxWidth: 1100, padding: '32px 16px', boxSizing: 'border-box' }}
           >
