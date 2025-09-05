@@ -1,10 +1,9 @@
-
 import './App.css';
 import { FluentProvider, webLightTheme } from '@fluentui/react-components';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import { About } from './components/About';
-import { Projects } from './components/Projects';
+import { Experience } from './components/Experience';
 import { Skills } from './components/Skills';
 import { Contact } from './components/Contact';
 import 'devicon/devicon.min.css';
@@ -14,11 +13,25 @@ function App() {
     <FluentProvider theme={webLightTheme}>
       <Router>
         <Nav />
-        <main className="fancy-bg" style={{ minHeight: '100vh', width: '100vw', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 0, margin: 0 }}>
-          <div style={{ width: '100%', maxWidth: 1100, padding: '32px 16px', boxSizing: 'border-box' }}>
+        <main
+          className="fancy-bg"
+          style={{
+            minHeight: '100vh',
+            width: '100vw',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: 0,
+            margin: 0,
+          }}
+        >
+          <div
+            style={{ width: '100%', maxWidth: 1100, padding: '32px 16px', boxSizing: 'border-box' }}
+          >
             <Routes>
               <Route path="/about" element={<About />} />
-              <Route path="/resume" element={<Projects />} />
+              <Route path="/experience" element={<Experience />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/" element={<Navigate to="/about" replace />} />
