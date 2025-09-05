@@ -1,0 +1,57 @@
+# Jialin Portfolio Website
+
+This project is a personal portfolio website built with React, TypeScript, Vite, and Fluent UI. It showcases professional experience, skills, and contact information in a modern, responsive, and visually appealing format.
+
+## Features
+
+- Modular React components for each section (About, Resume, Skills, Contact)
+- Data-driven resume and skills
+- Animated transitions and modern design
+- Uses Fluent UI and Devicon for consistent styling and icons
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm (v8 or higher recommended)
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Run the development server
+
+```
+npm run dev
+```
+
+Open your browser and go to the local address shown in the terminal (usually http://localhost:5173).
+
+### Build for production
+
+```
+npm run build
+```
+
+The production-ready files will be output to the `dist` directory.
+
+### Preview the production build
+
+```
+npm run preview
+```
+
+## Formatting
+
+This project uses [Prettier](https://prettier.io/) for code formatting. You can format all files with:
+
+```
+npx prettier --write .
+```
+
+## License
+
+This project is for personal portfolio use. See LICENSE for more information.
