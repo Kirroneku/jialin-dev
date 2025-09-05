@@ -1,6 +1,6 @@
 import { Title3, Divider, Body1, Text, makeStyles, tokens } from '@fluentui/react-components';
 import { FadeInSection } from './FadeInSection';
-import resumeData from '../data/resume.json';
+import { resumeData } from '../data/resumeData';
 import { educationData } from '../data/educationData';
 
 const useStyles = makeStyles({
