@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Full Stack Developer Consultant, Avanade – Toronto, ON, CA",
+    "date": "June 2022 – Present",
+    "highlights": [
+      "Mentored junior developers as a Career Advisor",
+      "Lead and organized several community events"
+    ],
+    "projects": [
+      {
+        "title": "Full Stack Developer - Leading Tech Corporation",
+        "tech": "React, Angular, TypeScript, Git, Automated Testing, GraphQL, Azure DevOps",
+        "bullets": [
+          "Delivered data-centric product to market with 40k+ monthly active users and a growing market base.",
+          "Primary developer of product extension using a React-based solution for onboarding users from other existing products to the main product, directly acquiring 1000+ users.",
+          "Implemented and enhanced end to end testing infrastructure with Azure and Playwright, enabling hourly automated tests with failure notification system to ensure product stability via Azure Devops",
+          "First point of contact for testing infrastructure and end to end tests on the project.",
+          "Developed middleware API layer to transform GraphQL responses into frontend data structures, leading to easier to understand and reduce complexity on the front end code.",
+          "Actively pursued improvements to the end user experience of the product."
+        ]
+      },
+      {
+        "title": "Full Stack Developer - Higher Education Institution",
+        "tech": "React.js, C# (.NET), JavaScript, Git",
+        "bullets": [
+          "Participated in greenfield development of full-stack application with React frontend with C# backend",
+          "Demonstrated strong communication skills through effective collaboration with offshore development team",
+          "Provided key transitional support in project roll-off and additional resource consulting after contract end.",
+          "Primary point of contact on accessibility and Google analytics features."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Full Stack Developer Sr Analyst, Avanade – Toronto, ON, CA",
+    "date": "April 2021 - June 2022",
+    "projects": [
+      {
+        "title": "Full Stack Developer - Big 5 Canadian Bank",
+        "tech": "Vue.js, Ember.js, JavaScript, Git, Automated Testing",
+        "bullets": [
+          "Delivered multiple web pages using Vue.js and Ember.js frameworks according to design specifications and API integration",
+          "Developed tests with Cypress and Chai for reliable end-to-end coverage",
+          "Assumed team lead responsibilities for duration of short-term project",
+          "Created documentation of core systems to enhance developer onboarding and knowledge transfer",
+          "Refactored code to address technical debt in existing codebases"
+        ]
+      },
+      {
+        "title": "Applications Developer - Mortgage Services Provider",
+        "tech": "React.js, TypeScript, JavaScript, Automated Testing",
+        "bullets": [
+          "Constructed React.js web interfaces with TypeScript implementation based on design specifications",
+          "Solutioned fixes for bugs based on reports"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Software Developer Co-op, The Weather Network – Oakville, ON, CA",
+    "date": "May 2018 - December 2018",
+    "highlights": [],
+    "projects": [
+      {
+        "title": "The Weather Network and MeteoMedia Alexa skill",
+        "bullets": [
+          "Developed and released The Weather Network and MeteoMedia Alexa skill, which has accumulated numerous daily users, in an agile scrum methodology with product managers and other engineers."
+        ]
+      },
+      {
+        "title": "Interactive Map App",
+        "tech": "JavaScript, React, Mapbox, NPM, Three.js, AWS",
+        "bullets": [
+          "Wrote an interactive map app using JavaScript, React, Mapbox, NPM, Three.js, and AWS. The project is used by meteorologists to predict the weather by displaying current, past and future data such as radar, cloud, and pressure.",
+          "Created and tested AWS CloudFormation templates for new load balancers, EC2 instances, and S3 buckets."
+        ]
+      }
+    ]
+  }
+]
