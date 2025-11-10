@@ -149,10 +149,11 @@ export const resumeData: ExperienceRole[] = [
         ],
       },
       {
-        title: 'Automated Regression Testing for Magnum Products',
+        title: 'Automated and Manual Regression Testing for Magnum Products',
         tech: 'Selenium',
         bullets: [
           'Created automated regression tests in Selenium to reduce manual testing for Magnum products.',
+          'Performed manual testing for new releases of Magnum products to ensure quality with hardware',
         ],
       },
     ],
